@@ -4,3 +4,5 @@ Aprendendo HTML5,CSS3 e SEO de forma simples,prática e objetiva passoa a passo 
  
 <h2>Licença</h2>
 Este projeto está licencia sob a licen MIT - Consulte o arquivo LICENSE.md para detalhes.
+
+<h2>Validação W3C</h2>
