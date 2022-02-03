@@ -1,0 +1,68 @@
+/*
+ *   Folha de estilo do site trator Forte one page
+ *   @author André luiz Santos
+ *   andreluizsantos.dev@gmail.com
+*/
+/* CSS Reset */
+*{
+    margin:  0;
+    border:  0;
+    padding: 0;
+}
+
+/* Importação (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2? family= Source+Serif+4:wght@400;700 & display=swap');
+body{
+    font-family: 'Source Serif 4', sem serifa;
+    font-size: 1em;
+}
+/* Layout */
+.Container{
+    margin: 0 auto;
+    background-color: #7f0;
+}
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width: 576px){
+    body{
+        background-color: #0ff;;
+    }
+    .Container{
+        max-width: 540px;
+    }
+}
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px){
+    body{
+        background-color: blueviolet ;
+    }
+    .Container{
+        max-width: 720px;
+    }
+
+}
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(min-width: 992px){
+    body{
+        background-color:burlywood;
+    }
+    .Container{
+        max-width: 960px;
+    }
+}
+
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(min-width:1200px){
+    body{
+        background-color:chocolate;
+    }
+    .Container{
+        max-width: 1140px;
+    }
+}
+
